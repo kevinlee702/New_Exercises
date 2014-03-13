@@ -55,6 +55,15 @@ ul.nav li a {
 	color: #FFFFFF;
 }
 
+#logo_border {
+    border: 1px solid #FFFFFF;
+}
+
+#name {
+    font-size: 1.15em;
+    text-transform: uppercase;
+}
+
 #intro {
 	margin: 0px 0 75px 0;
 }
