@@ -1,7 +1,7 @@
 body {
 	font-family: 'Nunito', sans-serif;
 	color: #FAF3BC;
-	background: #420600 url('/Users/leefamily/HTML:CSS/css/img/bg-texture.jpg') repeat;
+	background: #420600 url('css/img/bg-texture.jpg') repeat;
 }
 
 a {
@@ -21,7 +21,7 @@ h2 {
 
 .btn {
 	color: #FAF3BC;
-	background: #4FB69F url('/Users/leefamily/HTML:CSS/css/img/texture.jpg') no-repeat right top;
+	background: #4FB69F url('css/img/texture.jpg') no-repeat right top;
 	padding: 15px 30px;
 	margin: 40px 0px;
 	border-radius: 25px;
@@ -47,12 +47,18 @@ ul.nav li a {
 }
 
 #intro {
-	margin: 50px 0 75px 0;
+	margin: 0px 0 75px 0;
 }
 
-#new-cupcakes img {
+#intro_pic {
+	margin: 35px 0px 10px 0px;
+	text-align: right;
+}
+
+#new-quirks img {
 	border: 8px solid #FAF3BC;
-	margin: 0 0 20px 0;
+	margin: 0 0 55px 0;
+	text-align: right;
 }
 
 #featured-cupcake img {
