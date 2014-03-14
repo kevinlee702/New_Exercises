@@ -4,6 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <title>Dev Pizza Camp</title>
   <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
   <link rel="stylesheet" href="css/devpizzacampstyle.css" type="text/css" media="screen">
 </head>
 <body>
@@ -19,12 +20,12 @@
             <li><a href="#" class="btn">Contact Us</a></li>
           </ul>
         </div>  
-    <div id="border">    
+    <div class="grid_6">    
       <div class="menu">
          <h2>Menu Items</h>
       </div> 
 
-      <div>
+      <div class="grid_6">
         <ul class="menu">
           <li class="category">Pizzas Pies</li>
           <li>(Large)...$22.99 (Medium)...$15.99 (Small)...$9.99</li>
@@ -37,7 +38,14 @@
           <li>Pineapple...$1.99</li>
           <li>Anchovis...$1.99</li>
           <li>Ham...$1.99</li>
-            
+       </div>
+
+       <p class="grid_2">
+          <p>$1.99</p>
+          <p>2.99</p>
+          <p>3.99</p>
+       </p>   
+
         <br>
            <li class="category">Pasta</li>
       
@@ -79,7 +87,6 @@
       </div> 
     </div>
 
-
 <div STYLE = "POSITION: absolute; TOP: 200px; LEFT: 850px">
 <img src="images/pizza_3pies.jpg" alt"PIZZA PICTURES">
 </div>
@@ -92,10 +99,10 @@
 <img src="images/buffalo_wings.jpg" alt"PIZZA PICTURES">
 </div>  
 
-<div>
+<div class="grid_5 omega">
       <div id="contact">
-        <p><strong>Order Now!</strong></p>
-        <p><strong>Call us: <span>1-555-DEV-PZZA</span></strong><br>
+        <p>Order Now!</p>
+        <p>Call us: <span>1-555-DEV-PZZA</span><br>
         Email us: <a href="#">kevinlee702@gmail.com</a></p>
      
 
@@ -106,9 +113,9 @@
     </div>
 </div>
   
- <div id="copyright">
+ <div id="copyright" class="grid_12">
       <p>&copy; 2014 Dev Pizza Camp Company. All Rights Reserved.</p>
     </div>
 
 </body>   
-</html>
+
