@@ -1,0 +1,39 @@
+ 
+nav {
+	padding:10px 16.6667% 10px 16.6667%;
+	background-color: #333;
+}
+ 
+li {
+	display:inline-block;
+	margin-right:20px;
+}
+ 
+ul {
+ list-style: none;
+ margin:0;
+ padding:0;
+ text-align:center;
+}
+ 
+ul li a {
+	text-decoration: none;
+	font-family: 'Helvetica', 'Arial';
+	color: #eee;
+}
+ 
+ul li a:hover {
+	color: #FFF;
+}
+ 
+#apply {
+	border: 1px solid #b0403b;
+	padding: 3px 3px 3px 3px;
+	margin-left: 10px;
+	background: #b7423d;
+	border-radius: 5px;
+}
+ 
+#apply:hover {
+	background: #AA0114;
+}

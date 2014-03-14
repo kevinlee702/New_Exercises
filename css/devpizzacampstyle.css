@@ -1,0 +1,47 @@
+body {
+	font-family: helvetica, sans-serif;
+	color: #000000;
+	background: #FFFFFF url('img/bg-texture.jpg') repeat;
+}
+
+
+
+.logo {
+	text-align: center;
+	border: 10px solid #CD853F;
+	margin: 5px 5px 5px 5px;
+}
+
+ul.nav {
+	margin: 20px 0px 0px 0px;
+	list-style: none;
+	float: center;
+}
+ul.nav li {
+	display: inline;
+	margin-right: 120px;
+    font-size: 20px;	
+}
+
+ul.nav li a {
+	color: #CD853F;
+}
+
+ul {
+ list-style: none;
+ margin:0;
+ padding:0;
+ text-align:center;
+}
+
+.menu {
+	text-align: left;
+	font-size: 20px;
+
+
+}
+
+.category{
+	color: red;
+	
+}
