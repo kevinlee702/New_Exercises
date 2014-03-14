@@ -1,7 +1,8 @@
 body {
 	font-family: helvetica, sans-serif;
 	color: #000000;
-	background: #FFFFFF url('img/bg-texture.jpg') repeat;
+	background: #FFFFFF url('images/Pizza_bg.jpg') repeat;
+	
 }
 
 
@@ -43,5 +44,5 @@ ul {
 
 .category{
 	color: red;
-	
+
 }
