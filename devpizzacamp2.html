@@ -1,121 +1,80 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<html class=" js flexbox"><head>
   <title>Dev Pizza Camp</title>
-  <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-   <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-  <link rel="stylesheet" href="css/devpizzacampstyle.css" type="text/css" media="screen">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/modernizr.js"></script>
 </head>
 <body>
-   
-    <div class="logo">
-          <img src="images/dev_pizza_camp_logo.png" alt="DEV PIZZA CAMP LOGO">
+  <div class="main-wrapper">
+    <header class="main-header">
+      <ul class="main-nav">
+        <li class="main-logo"><a href="http://devbootcamp.com/" target="_blank"><img src="dev_pizza_camp_logo.png" class="logo_pic" alt="camp is fun!"></a></li>
+        <li><a href="#" data-icon="">Starters</a></li>
+        <li><a href="#" data-icon="">Pizza</a></li>
+        <li><a href="#" data-icon="">Drinks</a></li>
+        <li><a href="#" data-icon="">Desserts</a></li>
+      </ul>
+    </header>
+    <div class="main-banner">
+      <h1>Grand Opening At Our New SoMa Location!</h1>
+      <p>Come join us at 633 Folsom Street San Francisco, CA, starting March 31, 2014.</p>
     </div>
-        <div>
-          <ul class="nav">
-            <li><a href="#" class="btn">About</a></li>
-            <li><a href="#" class="btn">Hot Deals</a></li>
-            <li><a href="#" class="btn">Locations</a></li>
-            <li><a href="#" class="btn">Contact Us</a></li>
-          </ul>
-        </div>  
-    <div class="grid_6">    
-      <div class="menu">
-         <h2>Menu Items</h>
-      </div> 
-
-      <div class="grid_6">
-        <ul class="menu">
-          <li class="category">Pizzas Pies</li>
-          <li>(Large)...$22.99 (Medium)...$15.99 (Small)...$9.99</li>
-          
-          <li>Choose Your Toppings:</li>
-          <li>Extra Cheese...$1.99</li>
-          <li>Pepperoni...$1.99</li>
-          <li>Sausage...$2.49</li>
-          <li>Meatballs...$2.49</li>
-          <li>Pineapple...$1.99</li>
-          <li>Anchovis...$1.99</li>
-          <li>Ham...$1.99</li>
-       </div>
-
-       <p class="grid_2">
-          <p>$1.99</p>
-          <p>2.99</p>
-          <p>3.99</p>
-       </p>   
-
-        <br>
-           <li class="category">Pasta</li>
-      
-           <li>Make it a Meal:</li>
-           <li>Spaghetti.......$9.99</li>
-           <li>Stuffed Shells.......$8.99</li>
-           <li>Chicken Parmigiana...$9.99</li>
-           <li>Veal Parmigiana...$9.99</li>
-           <li>Egg Plant Parmigiana...$9.99</li>
-           <li>Ravioli.......$7.99</li>
-           <li>Baked Ziti........$8.99</li>
-         <br>
-           <li class="category">Sides</li>
-           <li>Combine it with:</li>
-           <li>Chicken Wings...$4.99</li>
-           <li>Potato Wedges...$4.99</li>
-           <li>Garlic Twists...$3.99</li>
-           <li>Mozzarella Strips...$3.99</li>
-           <li>Mashed Potatoes...$3.99</li>
-           <li>Salad...$3.99</li>
-         <br>
-           <li class="category">Desserts</li>
-           <li>Finish It Off:</li>
-           <li>Apple Pie...$3.99</li>
-           <li>Ice Cream Sundae...$3.99</li>
-           <li>Cheese Cake...$3.99</li>
-           <li>Tiramisu...$3.99</li>
-         <br>
-           <li class="category">Drinks</li>
-           <li>Wash it Down:</li>
-           <li>Coke...$1.99</li>
-           <li>7up...$1.99</li>
-           <li>Root Beer...$1.99</li>
-           <li>Orange Soda...$1.99</li>
-           <li>Lemonade...$1.99</li>
-           <li>Iced Tea...$1.99</li>
-           <li>Water...$1.00</li>
-         </ul>  
-      </div> 
+    <div class="content-row group">
+      <div class="extra-content col">
+        <h3>Miscellaneous Information</h3>
+        <hr>
+        <div class="location_container"><img class="location" src="633.png" alt="google maps screenshot of 633 Folsom"></div>
+        <hr>
+        <p>Although we love building awesomeness, and as much as we would like to be in the kitchen 24 hours per day, regulations dictate that we close by 2 a.m. nightly for sleep.</p>
+      </div>
+      <div class="primary-content col">
+        <h3>About Our Pizza</h3><hr>
+        <img class="feat-img" src="imbed_pizza.png" alt="pizza; credit Little Star SF">
+        <p>Our pizza is full stack. If you're hoping to get right down to business, take your pick of our two structurally sound frameworks offered: Thin-crust and Thick-crust. Both recipes are open source and promising foundations upon which you can add layers of customization.</p>
+        <p>In fact, we encourage creativity and encourage your to develop your own signature pizza with your personal blend of structure, style, and behavior. See below for individual ingredients; however, for those familiar with our services, we offer several pre-processessors to speed up your layout process.</p>
+      </div>
+      <div class="secondary-content col">
+        <h3>Starters &amp; Appetizers</h3><hr>
+        <p><span>Garlic</span> Bread → Warm housemade bread topped with butter, fresh garlic, mozzarella &amp; fresh basil <span>$5.75</span><br>
+<span>Caprese Salad</span> → Fresh mozzarella served with sliced tomatoes, basil, and drizzled with extra virgin olive oil and balsamic vinegar <span>$11</span><br>
+<span>Spicy Chicken Wings</span> → Pound of wings served with baby carrots and blue cheese dressing <span>$11</span><br>
+<span>Mixed Salad</span> → Organic mixed greens, cherry tomatoes, red bells, red onions, gorgonzola cheese and chopped walnuts, tossed with a housemade vinaigrette dressing <span>$8 / $11</span></p>
+      </div>
     </div>
-
-<div STYLE = "POSITION: absolute; TOP: 200px; LEFT: 850px">
-<img src="images/pizza_3pies.jpg" alt"PIZZA PICTURES">
-</div>
-
-<div STYLE = "POSITION: absolute; TOP: 585px; LEFT: 850px">
-<img src="images/potatowedges.jpg" alt"PIZZA PICTURES">
-</div> 
-
-<div STYLE = "POSITION: absolute; TOP: 975px; LEFT: 850px">
-<img src="images/buffalo_wings.jpg" alt"PIZZA PICTURES">
-</div>  
-
-<div class="grid_5 omega">
-      <div id="contact">
-        <p>Order Now!</p>
-        <p>Call us: <span>1-555-DEV-PZZA</span><br>
-        Email us: <a href="#">kevinlee702@gmail.com</a></p>
-     
-
-
-      <p>Follow Us on Facebook &amp; Twitter</p>
-      <a href="http://www.facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
-      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+    <div class="content-row group">
+      <div class="deep col">
+        <h3>Deep-Dish</h3><hr>
+        <p><span>Classic</span> → Sausage, mushrooms, onions, green bells <span>$19.50 / $25</span><br>
+        <span>Mediterranean Chicken</span> → Chicken breast, artichoke hearts, red bells, green olives, onions, feta <span>$19.75 / $25.50</span><br>
+        <span>Vegetarian</span> → Mushrooms, onions, black olives, red bells, garlic, roasted zucchini <span>$19 / $24.50</span><br>
+        <span>Little Star</span> → Spinach blended with ricotta and feta, mushrooms, onions, garlic <span>$19 / $24.50</span><br>
+        <span>Cheese</span> → Add any topping for <span>$1.85 / $2.75</span> each <span>$13 / $17.50</span></p>
+      </div>  
+      <div class="thin col">
+        <h3>Thin-Crust</h3><hr>
+        <p><span>Pesto Chicken</span> → Pesto base, roasted chicken, roasted red peppers, mushrooms, onions <span>$19 / $24.50</span><br>
+        <span>Italian Combo</span> → Pepperoni, salami, onions, green bells, black olives, pepperoncini <span>$19 / $24.50</span><br>
+        <span>Greek</span> → Spinach, black olives, roasted garlic, feta, sun-dried tomatoes <span>$19 / $24</span><br>
+        <span>White Pie</span> → Garlic olive oil base, mozzarella, roasted zucchini, fresh tomatoes, feta <span>$18.75 / $23.75</span><br>
+        <span>Meateor</span> → Sausage, pepperoni, mushrooms, onions <span>$19 / $24.50</span><br>
+        <span>Cheese<span> → Add any topping for <span>$1.85 / $2.75</span> each <span>$12.75 / $16.75</span></span></span></p>
+      </div>  
+      <div class="byo col">
+        <h3>Build Your Own!</h3><hr>
+        <p><span>Toppings</span> → Anchovies, artichoke hearts, bell peppers, chicken, feta, fresh basil, fresh mozzarella, garlic, gorgonzola, mushrooms, olives, onions, pepperoncini, pepperoni, pesto, ricotta, roasted garlic, roasted zucchini, salami, sausage, spinach, sun-dried tomatoes, fresh tomatoes</p>
+        <p><span>Pizza Styles</span> →<br><span>Deep Dish<br>Thin Crust</span></p>
+      </div>  
+      <div class="drinks col">
+        <h3>Dessert &amp; Beverage Options</h3><hr>
+        <p><span>Cheesecake $5.25<br>
+        Gelato $4.50</span></p><hr>
+        <p>Coffee $2.50</p><p>Cappucino $1.50</p><p>Soda $1.00</p><p>Domestic Beer $4.00</p><p>Imported Beer $5.50</p>
+      </div>    
     </div>
-</div>
-  
- <div id="copyright" class="grid_12">
-      <p>&copy; 2014 Dev Pizza Camp Company. All Rights Reserved.</p>
-    </div>
+    <footer class="main-footer">
+      <p>©2014 Rex Suter</p>
+    </footer>
+  </div>
 
-</body>   
-
+</body></html>
